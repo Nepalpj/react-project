@@ -12,7 +12,7 @@ const Topheader = () => {
     <FaWhatsapp className='h-8 text-green-500'/>
    <span className='h-4 pl-1 pr-1'>|</span> 
    <FaViber className='h-8' />
-    <span className='pl-1 text-slate-600 '>9803513810/9886161935</span>
+    <span className='pl-1 text-slate-600 '>9803513810</span>
     </div>
     <div>
         
