@@ -38,36 +38,36 @@ const Footer = () => {
           </div>
           <div className="w-full md:w-1/4 lg:w-1/4 xl:w-1/4 px-4 mb-8">
             <ul className="text-gray-500">
-            <h2 className="text-gray-500 text-lg font-semibold mb-4">Links</h2>
-              <li className="mb-2">About Us</li>
-              <li className="mb-2">Contact Us</li>
-              <li className="mb-2">Blog</li>
-              <li className="mb-2">FAQ'S</li>
-              <li>Hiring</li>
+            <h2 className="text-gray-500 text-lg font-semibold mb-2">Links</h2>
+              <li className="mb-2 hover:text-yellow-600">About Us</li>
+              <li className="mb-2 hover:text-yellow-600">Contact Us</li>
+              <li className="mb-2 hover:text-yellow-600">Blog</li>
+              <li className="mb-2 hover:text-yellow-600">FAQ'S</li>
+              <li className="mb-2 hover:text-yellow-600">Hiring</li>
             </ul>
           </div>
           <div className="w-full md:w-1/4 lg:w-1/4 xl:w-1/4 px-4 mb-8">
             <ul className="text-gray-500">
-            <h2 className="text-gray-500 text-lg font-semibold mb-4">
+            <h2 className="text-gray-500 text-lg font-semibold mb-2">
               Policies
             </h2>
-              <li className="mb-2">Terms and Conditions</li>
-              <li className="mb-2">Return Policy</li>
-              <li className="mb-2">Data Policy</li>
-              <li className="mb-2">Refund Policy</li>
-              <li>G-Cash Policy</li>
+              <li className="mb-2 hover:text-yellow-600">Terms and Conditions</li>
+              <li className="mb-2 hover:text-yellow-600">Return Policy</li>
+              <li className="mb-2 hover:text-yellow-600">Data Policy</li>
+              <li className="mb-2 hover:text-yellow-600">Refund Policy</li>
+              <li className="mb-2 hover:text-yellow-600">G-Cash Policy</li>
             </ul>
           </div>
           <div className="w-full md:w-1/4 lg:w-1/4 xl:w-1/4 px-4 mb-8">
             <ul className="text-gray-500">
-            <h2 className="text-gray-500 text-lg font-semibold mb-4">
+            <h2 className="text-gray-500 text-lg font-semibold mb-2">
               Contact Us
             </h2>
-              <li className="mb-2 flex items-center">
+              <li className="mb-2 hover:text-yellow-600 flex items-center">
                 <FaPhone className="mr-2" />
                 <span>9803513810</span>
               </li>
-              <li className="mb-2 flex items-center">
+              <li className="mb-2 hover:text-yellow-600 flex items-center">
                 <FaEnvelope className="mr-2" />
                 <span>www.info@gyapu.com</span>
               </li>
@@ -93,38 +93,38 @@ const Footer = () => {
         <div className="w-full md:w-1/4 lg:w-1/4 xl:w-1/4 px-4 mb-8">
             <ul className="text-gray-500">
             <h2 className="text-white text-lg font-semibold mb-2">Sell</h2>
-              <li className="mb-2">Start Selling</li>
-              <li className="mb-2">Learn to Sell</li>
-              <li className="mb-2">Independent Seller</li>
-              <li>Earn More</li>
+              <li className=" mb-2 hover:text-yellow-600 ">Start Selling</li>
+              <li className=" mb-2 hover:text-yellow-600 ">Learn to Sell</li>
+              <li className=" mb-2 hover:text-yellow-600 ">Independent Seller</li>
+              <li className=" mb-2 hover:text-yellow-600 ">Earn More</li>
             </ul>
           </div>
           <div className="w-full md:w-1/4 lg:w-1/4 xl:w-1/4 px-4 mb-8">
             <ul className="text-gray-500">
-            <h2 className="text-white text-lg font-semibold mb-2">Shop Here</h2>
-              <li className="mb-2">Women's Fashion</li>
-              <li className="mb-2">Mobile</li>
-              <li>Consumer Electronics</li>
+            <h2 className="text-white text-lg font-semibold  ">Shop Here</h2>
+              <li className=" mb-2 hover:text-yellow-600 ">Women's Fashion</li>
+              <li className=" mb-2 hover:text-yellow-600 ">Mobile</li>
+              <li className=" mb-2 hover:text-yellow-600 " >Consumer Electronics</li>
             </ul>
           </div>
           <div className="w-full md:w-1/4 lg:w-1/4 xl:w-1/4 px-4 mb-8">
             <ul className="text-gray-500">
-            <h2 className="text-white text-lg font-semibold mb-2">
+            <h2 className="text-white text-lg font-semibold  mb-2  ">
              Benefits
             </h2>
-              <li className="mb-2">Cash Back</li>
-              <li className="mb-2">Daily Deals</li>
-              <li className="mb-2">Product Policy</li>
+              <li className=" mb-2 hover:text-yellow-600 ">Cash Back</li>
+              <li className=" mb-2 hover:text-yellow-600 ">Daily Deals</li>
+              <li className=" mb-2 hover:text-yellow-600 ">Product Policy</li>
             </ul>
           </div>
           <div className="w-full md:w-1/4 lg:w-1/4 xl:w-1/4 px-4 mb-8">
             <ul className="text-gray-500">
-            <h2 className="text-white text-lg font-semibold mb-2">
+            <h2 className="text-white text-lg font-semibold  mb-2  ">
              About Gyapu
             </h2>
-              <li className="mb-2">Company Info</li>
-              <li className="mb-2">News & Media</li>
-              <li className="mb-2">Gyapu Family Package</li>
+              <li className=" mb-2 hover:text-yellow-600  ">Company Info</li>
+              <li className=" mb-2 hover:text-yellow-600 ">News & Media</li>
+              <li className=" mb-2 hover:text-yellow-600 ">Gyapu Family Package</li>
             </ul>
           </div>
         </div>

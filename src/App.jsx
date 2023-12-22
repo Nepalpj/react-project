@@ -5,6 +5,7 @@ import MidHeader from './component/header/MidHeader'
 import Footer from './component/footer/Footer'
 import Product from './component/product/Product'
 import Home from './component/home/Home'
+import ProductDetails from './component/product/ProductDetails'
 import './App.css'
 
 function App() {
@@ -17,8 +18,8 @@ function App() {
       <MidHeader />
       <Routes>
         <Route exact path='/' element={<Home/>  } />
-        <Route exact path='/product' element={<Product/>  } />
-        <Route path=':productId' element={<Product/>} />
+        <Route path='/product/:productId' element={<ProductDetails />} />
+
       </Routes>
       <Footer/>
     </Router>

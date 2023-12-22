@@ -11,7 +11,9 @@ const Header = () => {
    <>
    <div className="font-sans flex my-1 mx-3 space-x-4  place-content-center  ...">
         <div className='mx-6 my-4'>
+        <NavLink to="/" activeClassName="active">
          <img src={Logo} className='h-12 w-full' alt='img' />
+         </NavLink>
         </div>
          <div className='flex mx-5 my-4 space-x-4'>
          <div className='flex'>
@@ -32,7 +34,7 @@ const Header = () => {
   <FaCartShopping className="h-6 w-6 text-gray-500 ml-2 mt-2" />
   <span className='flex text-xl pt-1 ml-1' style={{ position: 'relative' }}>
     cart
-    <span className = " text-base bg-yellow-400 "style={{ position: 'absolute', width:"22px", height:"22px", display:"flex",
+    <span className = "font-bold text-base bg-yellow-400 "style={{ position: 'absolute', width:"22px", height:"22px", display:"flex",
       justifyContent:'center', alignItems:'center', marginTop: "-8px", marginLeft: "25px", borderRadius:"11px", 
      fontSize:"14px" , color:"black"}}>
       0 

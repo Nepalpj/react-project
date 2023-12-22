@@ -13,12 +13,10 @@ const Home = () => {
      
         <>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-        {HomeData.map((value,i)=>(
-            <>
-             <Details key={i} id={value.id} title={value.title} image_url={value.image_url} price={value.price}/>
+        {HomeData.map((value) => (
+    <Details key={value.id} id={value.id} title={value.title} image_url={value.image_url} price={value.price} />
+))}
 
-            </>
-        ))}
       </div>
         </>
      </div>
