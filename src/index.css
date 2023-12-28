@@ -1,3 +1,138 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media screen and (max-width: 1025px)  {
+    .hide {
+        display: none;
+    }
+    .size {
+        width: 250px;
+        margin-top: 20px;
+    }
+    .size2 {
+        width: 12px;
+        margin-top: 20px;
+    }
+    .logo {
+        justify-content: start;
+        place-content: left;
+    }
+    .collu {
+        
+        flex-direction: column; /* Set flex-direction to column */
+        align-items: center; /* Center items horizontally in column */
+        text-align: center; /* Center text within each item */
+    }
+    .bl {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 820px) {
+    .hide{
+        display: none;
+    }
+    .size{
+        width: 250px;
+        margin-top: 20px;
+    }
+    .size2{
+        width: 12px;
+        margin-top: 20px;
+    }
+    .logo{
+        justify-content: start;
+        place-content: left;
+    }
+    .collu{
+   
+        flex-direction: column;
+    }
+    .bl{
+        display: inline-block;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .f{
+        display: flex;
+        place-content: flex-start;
+    }
+    .box{
+        width: 180px;
+    }
+    .loogo{
+        width: 120px;
+        height: 50px;
+    }
+    .hide{
+        display: none;
+    }
+    .size{
+        width: 50px;
+       
+    }
+    .down{
+        display: flex;
+       
+    }
+    .logo{
+        margin-right: 2px;
+        height: 100px;
+        width: 100px;
+        margin-top: 10px;
+        place-content: left;
+    }
+    .size2{
+        width: 12px;
+       
+    }
+    .collu{
+        
+        flex-direction: column;
+    }
+
+}
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .perimeter {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .image {
+    flex: 0 0 100%;
+  }
+  
+  .copy {
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  
+  @media (min-width: 415px) {
+    .perimeter {
+      flex-direction: row;
+    }
+    
+    .image {
+      flex: 0 0 50%;
+    }
+  }
+  
+  @media (min-width: 800px) {
+    .image {
+      flex: 0 0 33.5%;
+    }
+  }
+  
+  

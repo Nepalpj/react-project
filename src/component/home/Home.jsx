@@ -12,9 +12,9 @@ const Home = () => {
       <strong className='mx-4 text-2xl text-gray-500'>Top Picks</strong>
      
         <>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
         {HomeData.map((value) => (
-    <Details key={value.id} id={value.id} title={value.title} image_url={value.image_url} price={value.price} />
+    <Details  id={value.id} title={value.title} image_url={value.image_url} price={value.price} />
 ))}
 
       </div>

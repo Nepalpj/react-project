@@ -5,7 +5,7 @@ import MidHeader from './component/header/MidHeader'
 import Footer from './component/footer/Footer'
 import Product from './component/product/Product'
 import Home from './component/home/Home'
-import ProductDetails from './component/product/ProductDetails'
+import ProductDetails from './component/product/ProductDetails.jsx'
 import './App.css'
 
 function App() {

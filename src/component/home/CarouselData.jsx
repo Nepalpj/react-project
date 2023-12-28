@@ -2,7 +2,7 @@ import React from 'react'
 import Fcarouse from "../Img/fcarouse.png"
 import Scarouse from "../Img/scarouse.png"
 import Tcarouse from "../Img/tcarouse.png"
-
+import Ecarouse from "../Img/namastebazzar.png"
 
 export const CarouselData  = [
     {
@@ -25,5 +25,6 @@ export const CarouselData  = [
         visit:"",
         carousel_url:Tcarouse
     },
+    
 ]
 

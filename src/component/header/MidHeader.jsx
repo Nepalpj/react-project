@@ -3,7 +3,7 @@ import React from 'react'
 const MidHeader = () => {
   return (
     <>
-    <div className='flex bg-purple-950 justify-center h-8 space-x-6 '>
+    <div className='flex  bg-purple-950 justify-center h-8 space-x-6 hide'>
         <span className='text-white'> Groceries</span>
         <span className='text-white'> G-Bar</span>
         <span className='text-white'> Electronic Accessories</span>

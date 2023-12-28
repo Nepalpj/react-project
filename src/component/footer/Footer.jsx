@@ -4,18 +4,20 @@ import { SiFacebook, SiTwitter, SiInstagram } from "react-icons/si";
 import GooglePay from "../Img/gplay.png";
 import AppStore from "../Img/astore.png";
 import { Link } from "react-router-dom";
-import footer from "../Img/footer.png"
+import footer1 from "../Img/footer1.png"
+import footer2 from "../Img/footer2.png"
+
 const Footer = () => {
   return (
     <>
       <footer >
         <div className="font-sans bg-gray-300 pt-2 ">
         <div className="container mx-auto flex flex-wrap ">
-          <div className="w-full md:w-1/4 lg:w-1/4 xl:w-1/4 px-4">
+          <div className=" sm:w-1/4 sm:px-0 md:w-1/4 lg:w-1/4 xl:w-1/4 px-4">
             <h2 className="text-gray-500 text-l font-semibold mb-3 pt-5">
               Inside Deals and Offers !!
             </h2>
-            <div className="flex flex-col">
+            <div className="flex flex-row mb-2...">
               <Link>
                 <div className="mb-2">
                   <img
@@ -36,7 +38,7 @@ const Footer = () => {
               </Link>
             </div>
           </div>
-          <div className="w-full md:w-1/4 lg:w-1/4 xl:w-1/4 px-4 mb-8">
+          <div className=" sm:w-1/4 px-2 md:w-1/4 lg:w-1/4 xl:w-1/4 px-4 mb-8">
             <ul className="text-gray-500">
             <h2 className="text-gray-500 text-lg font-semibold mb-2">Links</h2>
               <li className="mb-2 hover:text-yellow-600">About Us</li>
@@ -46,7 +48,7 @@ const Footer = () => {
               <li className="mb-2 hover:text-yellow-600">Hiring</li>
             </ul>
           </div>
-          <div className="w-full md:w-1/4 lg:w-1/4 xl:w-1/4 px-4 mb-8">
+          <div className=" sm:w-1/4 md:w-1/4 lg:w-1/4 xl:w-1/4 px-4 mb-8">
             <ul className="text-gray-500">
             <h2 className="text-gray-500 text-lg font-semibold mb-2">
               Policies
@@ -58,7 +60,7 @@ const Footer = () => {
               <li className="mb-2 hover:text-yellow-600">G-Cash Policy</li>
             </ul>
           </div>
-          <div className="w-full md:w-1/4 lg:w-1/4 xl:w-1/4 px-4 mb-8">
+          <div className="w-full sm:1/4 md:w-1/4 lg:w-1/4 xl:w-1/4 px-4 mb-8">
             <ul className="text-gray-500">
             <h2 className="text-gray-500 text-lg font-semibold mb-2">
               Contact Us
@@ -80,15 +82,19 @@ const Footer = () => {
           </div>
         </div>
         </div>
-       <div className="flex place-content-between px-3 py-2">
-       <p className="text-center text-black py-1 ...">
-          Copyright © 2021{" "} 
-            Gyapu
-          . All Rights Reserved.
-        </p>
-        <img src={footer} alt="footer"/>
-       </div>
-       <div className="font-sans bg-gray-950 pt-2 pl-5">
+        
+<div className="flex place-content-between px-3 py-2  collu">
+    <p className="text-center text-black py-1  .bl ...">
+        Copyright © 2021{" "}
+        Gyapu 
+        . All Rights Reserved.
+    </p>
+    <div className="collu sm:flex flex-col lg:flex flex-row ">
+        <img className="collu" src={footer1} alt="footer"  />
+        <img className="collu" src={footer2} alt="footer" />
+    </div>
+</div>
+<div className="font-sans bg-gray-950 pt-2 pl-5">
         <div className="container mx-auto flex flex-wrap ">
         <div className="w-full md:w-1/4 lg:w-1/4 xl:w-1/4 px-4 mb-8">
             <ul className="text-gray-500">
